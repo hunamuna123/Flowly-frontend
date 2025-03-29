@@ -1,3 +1,4 @@
+// nuxt.config.js
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
@@ -6,7 +7,11 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [
-      tailwindcss(),
+      tailwindcss(), // Подключаем плагин Tailwind CSS для Vite
     ],
+  },
+  modules: ['@pinia/nuxt'],
+  router: {
+    middleware: ['auth'], // Подключаем middleware
   },
 });
