@@ -1,20 +1,20 @@
 <template>
   <div
-    class="max-w-[85rem] w-full mx-auto py-4 flex flex-col items-center text-left"
+    class="max-w-[85rem] w-full mx-auto py-4 flex flex-col items-center text-left "
   >
     <div class="relative overflow-hidden">
-      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-24">
+      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-24 ">
         <div class="text-center">
-          <h1 class="text-4xl sm:text-6xl font-bold text-white">
+          <h2 class="text-4xl sm:text-6xl font-bold text-white">
             Попробуйте бесплатно
-          </h1>
-          <p class="mt-3 text-gray-400">
+          </h2>
+          <p class="mt-3 text-gray-300">
             Вы моожете сделать свой первый поиск прямо сейчас
           </p>
-          <div class="mt-7 sm:mt-12 mx-auto max-w-xl relative">
+          <div class="mt-7 sm:mt-12 mx-auto max-w-xl relative ">
             <form>
               <div
-                class="relative z-10 flex gap-x-3 p-3 bg-white border border-teal-200 rounded-lg shadow-lg shadow-teal-100"
+                class="relative z-10 flex gap-x-3 p-3 bg-white border  border-teal-200 rounded-lg shadow-lg shadow-teal-100"
               >
                 <div class="w-full">
                   <input
@@ -27,7 +27,7 @@
                 </div>
                 <div>
                   <a
-                    class="size-11 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-lg border border-transparent bg-teal-600 text-white hover:bg-teal-700 focus:outline-hidden focus:bg-teal-700 disabled:opacity-50 disabled:pointer-events-none"
+                    class="size-11 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-lg border border-transparent bg-teal-600  text-white hover:bg-teal-700 focus:outline-hidden focus:bg-teal-700 disabled:opacity-50 disabled:pointer-events-none"
                     href="#"
                   >
                     <svg
@@ -53,7 +53,7 @@
               class="hidden md:block absolute top-0 end-0 -translate-y-12 translate-x-20"
             >
               <svg
-                class="w-16 h-auto text-orange-500"
+                class="w-16 h-auto text-teal-500"
                 width="121"
                 height="135"
                 viewBox="0 0 121 135"
@@ -119,13 +119,13 @@
             <div>
               <div class="flex gap-x-5 ms-1">
                 <div
-                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-900"
+                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-teal-200"
                 >
                   <div
-                    class="relative z-10 size-9 flex justify-center items-center"
+                    class="relative z-10 size-8 flex justify-center items-center"
                   >
                     <span
-                      class="flex shrink-0 justify-center items-center size-9 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
+                      class="flex shrink-0 justify-center items-center size-8 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
                     >
                       1
                     </span>
@@ -141,13 +141,13 @@
               </div>
               <div class="flex gap-x-5 ms-1">
                 <div
-                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-900"
+                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-teal-200"
                 >
                   <div
-                    class="relative z-10 size-9 flex justify-center items-center"
+                    class="relative z-10 size-8 flex justify-center items-center"
                   >
                     <span
-                      class="flex shrink-0 justify-center items-center size-9 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
+                      class="flex shrink-0 justify-center items-center size-8 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
                     >
                       2
                     </span>
@@ -165,13 +165,13 @@
               </div>
               <div class="flex gap-x-5 ms-1">
                 <div
-                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-900"
+                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-teal-200"
                 >
                   <div
-                    class="relative z-10 size-9 flex justify-center items-center"
+                    class="relative z-10 size-8 flex justify-center items-center"
                   >
                     <span
-                      class="flex shrink-0 justify-center items-center size-9 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
+                      class="flex shrink-0 justify-center items-center size-8 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
                     >
                       3
                     </span>
@@ -189,13 +189,13 @@
               </div>
               <div class="flex gap-x-5 ms-1">
                 <div
-                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-900"
+                  class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-teal-200"
                 >
                   <div
-                    class="relative z-10 size-9 flex justify-center items-center"
+                    class="relative z-10 size-8 flex justify-center items-center"
                   >
                     <span
-                      class="flex shrink-0 justify-center items-center size-9 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
+                      class="flex shrink-0 justify-center items-center size-8 border border-teal-800 text-teal-500 font-semibold text-xs uppercase rounded-full"
                     >
                       4
                     </span>
@@ -212,7 +212,7 @@
                 </div>
               </div>
               <a
-                class="group inline-flex items-center gap-x-2 py-2 px-3 bg-teal-500 font-medium text-lg text-neutral-800 rounded-full focus:outline-hidden"
+                class="group inline-flex items-center gap-x-2 py-2 px-3 bg-teal-500 font-medium text-lg text-black rounded-full focus:outline-hidden"
                 href="#"
               >
                 <svg
