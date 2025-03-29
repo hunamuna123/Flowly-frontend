@@ -1,2 +1,20 @@
 @import "tailwindcss";
 @import "preline/variants.css";
+
+@font-face {
+	font-family: 'inter';
+	src: url('@/assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    font-family: 'inter', sans-serif;
+}
+
+@theme {
+    --color-flowly: #C0F497;
+    --color-flowlybg: #232323;
+    --color-flowlybg2: #2c2c2c;
+  }

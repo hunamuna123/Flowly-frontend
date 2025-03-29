@@ -1,3 +1,8 @@
 <template>
-    йОУ
+<div class="px-4">
+  <MainPageNavbar/>
+  <MainPageInfoblock/>
+</div>
+
+
 </template>
