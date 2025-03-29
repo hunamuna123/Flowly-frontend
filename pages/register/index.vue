@@ -80,8 +80,6 @@
 </template>
 
 <script>
-import { ref, computed } from 'vue';
-import { useRouter } from 'vue-router';
 import { useCookie } from '#app';
 import { useApiStore } from '@/store/api.js';
 

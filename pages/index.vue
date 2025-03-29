@@ -1,9 +1,9 @@
 <template>
-      <MainPageNavbar/>
+ <MainPageNavbar/>
    <div class="px-4 ">
-    <MainPageInfoblock/>
-    <MainPageInfoblock2/>
-    <MainPagePrices/>
+      <MainPageInfoblock/>
+      <MainPageInfoblock2/>
+      <MainPagePrices/>
    </div>
 
 </template>

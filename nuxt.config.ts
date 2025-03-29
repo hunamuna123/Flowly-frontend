@@ -7,11 +7,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [
-      tailwindcss(), // Подключаем плагин Tailwind CSS для Vite
+      tailwindcss(),
     ],
   },
   modules: ['@pinia/nuxt'],
-  router: {
-    middleware: ['auth'], // Подключаем middleware
-  },
 });

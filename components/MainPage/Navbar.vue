@@ -1,9 +1,9 @@
 <template>
   <header
-    class="flex flex-wrap xl:justify-start xl:flex-nowrap w-full py-2 z-0 absolute backdrop-blur-xl fixed"
+    class="flex flex-wrap xl:justify-start xl:flex-nowrap w-full py-2 z-0 absolute backdrop-blur-xl px-4 fixed"
   >
     <nav
-      class="relative max-w-[85rem] w-full flex flex-wrap xl:grid xl:grid-cols-12 basis-full items-center px-4  mx-auto"
+      class="relative max-w-[85rem] w-full flex flex-wrap xl:grid xl:grid-cols-12 basis-full items-center px-4 mx-auto"
     >
       <div class="xl:col-span-3 flex justify-between items-center">
         <NuxtLink
@@ -58,45 +58,49 @@
             <NuxtLink
               to="/#about"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
-              >О нас</NuxtLink>
+              >О нас</NuxtLink
+            >
           </div>
           <div>
             <NuxtLink
               to="/#reviews"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
-              >Отзывы</NuxtLink>
+              >Отзывы</NuxtLink
+            >
           </div>
         </div>
-        <div class="xl:hidden mt-4 flex flex-col gap-y-2 ">
-
+        <div class="xl:hidden mt-4 flex flex-col gap-y-2">
           <div v-if="!authtoken">
-  <NuxtLink to="/login" class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200">
-    Войти
-  </NuxtLink>
-</div>
-<div v-else>
-  <MainPageProfile />
-</div>
-</div>
-
-
-
+            <NuxtLink
+              to="/login"
+              class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200"
+            >
+              Войти
+            </NuxtLink>
+          </div>
+          <div v-else>
+            <MainPageProfile />
+          </div>
+        </div>
       </div>
 
       <div
         class="flex items-center gap-x-3 xl:gap-x-2 ms-auto py-1 xl:ps-6 xl:order-3 z-10 xl:col-span-3"
       >
-        <div class="xl:ms-auto mt-2 xl:mt-0 flex flex-wrap items-center gap-x-1.5 hidden xl:flex">
+        <div
+          class="xl:ms-auto mt-2 xl:mt-0 flex flex-wrap items-center gap-x-1.5 hidden xl:flex"
+        >
           <div v-if="!authtoken">
-  <NuxtLink to="/login" class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200">
-    Войти
-  </NuxtLink>
-</div>
-<div v-else>
-  <MainPageProfile />
-</div>
-
-        
+            <NuxtLink
+              to="/login"
+              class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200"
+            >
+              Войти
+            </NuxtLink>
+          </div>
+          <div v-else>
+            <MainPageProfile />
+          </div>
         </div>
         <button
           type="button"
@@ -145,5 +149,5 @@
 </template>
 
 <script setup>
-const authtoken = useCookie('authtoken').value;
+const authtoken = useCookie("authtoken").value;
 </script>

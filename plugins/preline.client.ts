@@ -1,10 +1,13 @@
-import { useRouter } from "vue-router";
-import("../node_modules/preline/dist");
+import 'preline/preline'
+import { type IStaticMethods } from 'preline/preline'
 
-export default defineNuxtPlugin(() => {
-  const router = useRouter();
-
-  router.afterEach(async () => {
-    setTimeout(() => window.HSStaticMethods.autoInit());
-  });
-});
+declare global {
+	interface Window {
+		HSStaticMethods: IStaticMethods
+	}
+}
+export default defineNuxtPlugin(nuxtApp => {
+	nuxtApp.hook('page:finish', () => {
+		window.HSStaticMethods.autoInit()
+	})
+})
