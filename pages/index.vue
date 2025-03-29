@@ -1,4 +1,5 @@
 <template>
+      <MainPageNavbar/>
    <div class="px-4 ">
     <MainPageInfoblock/>
     <MainPageInfoblock2/>

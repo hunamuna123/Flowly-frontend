@@ -1,11 +1,11 @@
 <template>
   <header
-    class="flex flex-wrap md:justify-start md:flex-nowrap w-full py-2 z-50 absolute backdrop-blur-xl fixed"
+    class="flex flex-wrap xl:justify-start xl:flex-nowrap w-full py-2 z-0 absolute backdrop-blur-xl fixed"
   >
     <nav
-      class="relative max-w-[85rem] w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4  mx-auto"
+      class="relative max-w-[85rem] w-full flex flex-wrap xl:grid xl:grid-cols-12 basis-full items-center px-4  mx-auto"
     >
-      <div class="md:col-span-3 flex justify-between items-center">
+      <div class="xl:col-span-3 flex justify-between items-center">
         <NuxtLink
           class="flex-none rounded-xl text-2xl flex gap-3 items-center font-semibold focus:outline-none border-teal-200 focus:opacity-80"
           to="/#main"
@@ -33,11 +33,11 @@
 
       <div
         id="hs-navbar"
-        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6"
+        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow xl:block xl:w-auto xl:basis-auto xl:order-2 xl:col-span-6"
         aria-labelledby="hs-navbar-collapse"
       >
         <div
-          class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0"
+          class="flex flex-col gap-y-4 gap-x-0 mt-5 xl:flex-row xl:justify-center xl:items-center xl:gap-y-0 xl:gap-x-7 xl:mt-0"
         >
           <div>
             <NuxtLink
@@ -67,50 +67,40 @@
               >Отзывы</NuxtLink>
           </div>
         </div>
-        <div class="md:hidden mt-4 flex flex-col gap-y-2 ">
+        <div class="xl:hidden mt-4 flex flex-col gap-y-2 ">
 
           <div v-if="!authtoken">
-            <NuxtLink to="/login" class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200 ">
-              Войти
-            </NuxtLink>
-          </div>
-          <div v-else>
-            <NuxtLink
-              to="/profile"
-              class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200"
-            >
-              Профиль
-            </NuxtLink>
-          </div>
-        </div>
+  <NuxtLink to="/login" class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200">
+    Войти
+  </NuxtLink>
+</div>
+<div v-else>
+  <MainPageProfile />
+</div>
+</div>
+
 
 
       </div>
 
       <div
-        class="flex items-center gap-x-3 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 z-10 md:col-span-3"
+        class="flex items-center gap-x-3 xl:gap-x-2 ms-auto py-1 xl:ps-6 xl:order-3 z-10 xl:col-span-3"
       >
-        <div class="md:ms-auto mt-2 md:mt-0 flex flex-wrap items-center gap-x-1.5 hidden md:flex">
-          <div v-if="authtoken">
-            <NuxtLink
-              to="/profile"
-              class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200"
-            >
-              Профиль
-            </NuxtLink>
-          </div>
-          <div v-else>
-            <NuxtLink
-              to="/login"
-              class="py-[7px] px-2.5  inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200"
-            >
-              Войти
-            </NuxtLink>
-          </div>
+        <div class="xl:ms-auto mt-2 xl:mt-0 flex flex-wrap items-center gap-x-1.5 hidden xl:flex">
+          <div v-if="!authtoken">
+  <NuxtLink to="/login" class="py-[7px] px-2.5 inline-flex items-center font-medium text-sm rounded-lg disabled:opacity-50 disabled:pointer-events-none bg-transparent border border-teal-500 text-neutral-300 hover:text-gray-200">
+    Войти
+  </NuxtLink>
+</div>
+<div v-else>
+  <MainPageProfile />
+</div>
+
+        
         </div>
         <button
           type="button"
-          class="hs-collapse-toggle md:hidden relative flex justify-center items-center size-[46px] text-sm font-semibold rounded-xl border border-teal-200 text-teal-400 shadow-sm hover:bg-teal-700 focus:outline-none focus:bg-teal-800"
+          class="hs-collapse-toggle xl:hidden relative flex justify-center items-center size-[46px] text-sm font-semibold rounded-xl border border-teal-200 text-teal-400 shadow-sm hover:bg-teal-700 focus:outline-none focus:bg-teal-800"
           id="hs-navbar-collapse"
           aria-expanded="false"
           aria-controls="hs-navbar"

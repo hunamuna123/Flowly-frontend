@@ -1,4 +1,5 @@
 <template>
+<MainPageNavbar/>
   <div class="flex justify-center items-center min-h-screen px-4">
     <div class="w-full max-w-md bg-neutral-700 shadow-lg rounded-xl p-6 border-neutral-700">
       <h2 class="text-2xl font-semibold text-center text-white mb-2">Регистрация</h2>
