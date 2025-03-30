@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex flex-wrap xl:justify-start xl:flex-nowrap w-full py-2 z-0 absolute backdrop-blur-xl px-4 fixed"
+    class="flex flex-wrap xl:justify-start xl:flex-nowrap w-full py-2 z-100 absolute backdrop-blur-xl px-4 fixed"
   >
     <nav
       class="relative max-w-[85rem] w-full flex flex-wrap xl:grid xl:grid-cols-12 basis-full items-center px-4 mx-auto"
@@ -41,29 +41,29 @@
         >
           <div>
             <NuxtLink
-              to="/#main"
+              to="/"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
               >Главная</NuxtLink
             >
           </div>
           <div>
             <NuxtLink
-              to="/#product"
+              to="/panel"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
             >
-              Товары
+              Панель
             </NuxtLink>
           </div>
           <div>
             <NuxtLink
-              to="/#about"
+              to="/"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
               >О нас</NuxtLink
             >
           </div>
           <div>
             <NuxtLink
-              to="/#reviews"
+              to="/"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
               >Отзывы</NuxtLink
             >

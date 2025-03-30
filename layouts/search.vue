@@ -64,25 +64,7 @@
             <!-- SVG код -->
           </div>
         </div>
-        
-        <!-- Пример карточки блога -->
-        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <a class="block border border-gray-200 rounded-lg hover:shadow-2xs focus:outline-hidden dark:border-neutral-700" href="#">
-            <div class="relative flex items-center overflow-hidden">
-              <img class="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg" src="https://images.unsplash.com/photo-1661956600655-e772b2b97db4?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Blog Image" />
-              <div class="grow p-4 ms-32 sm:ms-48">
-                <div class="min-h-24 flex flex-col justify-center">
-                  <h3 class="font-semibold text-sm text-gray-800 dark:text-neutral-300">
-                    Studio by Mailchimp
-                  </h3>
-                  <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">
-                    Produce professional, reliable streams easily leveraging Mailchimp's innovative broadcast studio.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+      
         
         <h2 class="text-2xl font-bold text-white text-center">Похожие аккаунты</h2>
         <!-- Остальной шаблон карточек -->
@@ -127,7 +109,7 @@ export default {
       if (!id) return;
       
 
-      
+
       const apiUrl = useApiStore().url;
       try {
         // Если ваш API поддерживает GET-запрос с телом (необычный случай),

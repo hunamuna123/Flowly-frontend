@@ -5,6 +5,7 @@
       <MainPageInfoblock2/>
       <MainPagePrices/>
       <MainPageAnswers/>
+      <MainPageFooter/>
    </div>
 
 </template>

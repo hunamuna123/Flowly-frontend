@@ -1,79 +1,79 @@
 <template>
-    <!-- FAQ -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <!-- Title -->
-  <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-    <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800">
-      Frequently Asked Questions
-    </h2>
-  </div>
-  <!-- End Title -->
-
-  <div class=" mx-auto">
-    <!-- Grid -->
-    <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          Can I cancel at anytime?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
-        </p>
-      </div>
-      <!-- End Col -->
-
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          My team has credits. How do we use them?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.
-        </p>
-      </div>
-      <!-- End Col -->
-
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          How does Preline's pricing work?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.
-        </p>
-      </div>
-      <!-- End Col -->
-
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          How secure is Preline?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          Protecting the data you trust to Preline is our first priority. This part is really crucial in keeping the project in line to completion.
-        </p>
-      </div>
-      <!-- End Col -->
-
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          Do you offer discounts?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          We've built in discounts at each tier for teams. The time has come to bring those ideas and plans to life.
-        </p>
-      </div>
-      <!-- End Col -->
-
-      <div>
-        <h3 class="text-lg font-semibold text-gray-800">
-          What is your refund policy?
-        </h3>
-        <p class="mt-2 text-gray-600">
-          We offer refunds. We aim high at being focused on building relationships with our clients and community.
-        </p>
-      </div>
-      <!-- End Col -->
+  <!-- ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ -->
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto  text-white">
+    <!-- Заголовок -->
+    <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+      <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-teal-400">
+        Часто задаваемые вопросы
+      </h2>
     </div>
-    <!-- End Grid -->
+    <!-- Конец заголовка -->
+
+    <div class="mx-auto">
+      <!-- Сетка -->
+      <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            Могу ли я отменить подписку в любое время?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            Да, вы можете отменить подписку в любое время без дополнительных вопросов, но мы будем признательны, если вы оставите нам отзыв.
+          </p>
+        </div>
+        <!-- Конец столбца -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            У моей команды есть кредиты. Как их использовать?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            Как только ваша команда оформит подписку, мы сможем обсудить все детали за чашечкой кофе.
+          </p>
+        </div>
+        <!-- Конец столбца -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            Как устроена система цен?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            У нас ступенчатая система подписки. Важно понимать задачу и устранять все недочёты.
+          </p>
+        </div>
+        <!-- Конец столбца -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            Насколько безопасен сервис?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            Безопасность ваших данных — наш главный приоритет. Это важный шаг для успешного завершения проекта.
+          </p>
+        </div>
+        <!-- Конец столбца -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            Предлагаете ли вы скидки?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            У нас есть встроенные скидки на каждом уровне подписки для команд. Время воплощать идеи в жизнь!
+          </p>
+        </div>
+        <!-- Конец столбца -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-teal-300">
+            Как работает ваша политика возвратов?
+          </h3>
+          <p class="mt-2 text-gray-300">
+            Мы предлагаем возвраты. Наша цель — построить доверительные отношения с клиентами и сообществом.
+          </p>
+        </div>
+        <!-- Конец столбца -->
+      </div>
+      <!-- Конец сетки -->
+    </div>
   </div>
-</div>
-<!-- End FAQ -->
+  <!-- Конец FAQ -->
 </template>

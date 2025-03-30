@@ -1,3 +1,9 @@
+<script setup>
+definePageMeta({
+	middleware: 'auth',
+})
+</script>
+
 <template>
   <div
     class="max-w-[85rem] w-full mx-auto py-4 flex flex-col items-center text-left "
@@ -9,7 +15,7 @@
             Попробуйте бесплатно
           </h2>
           <p class="mt-3 text-gray-300">
-            Вы моожете сделать свой первый поиск прямо сейчас
+            Вы можете сделать свой первый поиск прямо сейчас
           </p>
           <div class="mt-7 sm:mt-12 mx-auto max-w-xl relative ">
             <form>
@@ -19,6 +25,7 @@
                 <div class="w-full">
                   <input
                     type="text"
+                    
                     name="hs-search-article-1"
                     id="hs-search-article-1"
                     class="py-2.5 px-4 block w-full border-transparent rounded-lg focus:border-teal-500 focus:ring-teal-500 focus:outline-none"
@@ -26,9 +33,10 @@
                   />
                 </div>
                 <div>
-                  <a
+                  <NuxtLink to="/panel"
+
                     class="size-11 inline-flex justify-center items-center gap-x-2 text-lg font-medium rounded-lg border border-transparent bg-teal-600  text-white hover:bg-teal-700 focus:outline-hidden focus:bg-teal-700 disabled:opacity-50 disabled:pointer-events-none"
-                    href="#"
+                    
                   >
                     <svg
                       class="shrink-0 size-5"
@@ -45,7 +53,7 @@
                       <circle cx="11" cy="11" r="8" />
                       <path d="m21 21-4.3-4.3" />
                     </svg>
-                  </a>
+                  </NuxtLink>
                 </div>
               </div>
             </form>
