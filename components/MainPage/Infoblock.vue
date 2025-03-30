@@ -1,12 +1,12 @@
 <template>
   <div class="max-w-[85rem] w-full mx-auto py-4 min-h-screen ">
-    <div class="flex flex-col md:flex-row items-start justify-between rounded-xl bg-teal-500 p-6 mt-16">
+    <div class="flex flex-col md:flex-row items-start justify-between rounded-xl bg-gradient-to-br from-teal-600 to-blue-600 p-6 mt-16">
       <div class="px-4 sm:px-6 lg:px-8">
   <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-start">
     <div class="lg:col-span-3 flex flex-col min-h-[600px]">
     </div>
 
-   
+
 
     
   </div>

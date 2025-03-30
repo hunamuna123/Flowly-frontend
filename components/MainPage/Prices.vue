@@ -6,7 +6,7 @@
     <p class="mt-2 text-gray-300">Мы предлагаем своим пользователям различные тарифные планы для более точной аналитики.</p>
   </div>
   <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:items-center">
-    <div class="flex flex-col border bg-teal-500 border-teal-600 text-center rounded-xl p-8">
+    <div class="flex flex-col border bg-gradient-to-br from-teal-600 to-teal-300 border-teal-600 text-center rounded-xl p-8">
       <h4 class="font-medium text-lg text-gray-800">Бесплатно</h4>
       <span class="mt-7 font-bold text-5xl text-gray-800">Бесплатно</span>
       <p class="mt-2 text-sm text-gray-500">Для обычных пользователей</p>
@@ -34,7 +34,7 @@
         Войти
       </a>
     </div>
-    <div class="flex flex-col border bg-teal-500 border-teal-600 text-center rounded-xl p-8">
+    <div class="flex flex-col border bg-gradient-to-br from-teal-600 to-teal-300 border-teal-600 text-center rounded-xl p-8">
       <h4 class="font-medium text-lg text-gray-800">Стандартный план</h4>
       <span class="mt-7 font-bold text-5xl text-gray-800">$30/месяц</span>
       <p class="mt-2 text-sm text-gray-500">Для продвинутых пользователей</p>
@@ -62,7 +62,7 @@
         Войти
       </a>
     </div>
-    <div class="flex flex-col border bg-teal-500 border-teal-600 text-center rounded-xl p-8">
+    <div class="flex flex-col border bg-gradient-to-br from-teal-600 to-teal-300 border-teal-600 text-center rounded-xl p-8">
       <h4 class="font-medium text-lg text-gray-800">Расширенный план</h4>
       <span class="mt-7 font-bold text-5xl text-gray-800">$47/месяц</span>
       <p class="mt-2 text-sm text-gray-500">Для опытных пользователей</p>
@@ -90,7 +90,7 @@
         Войти
       </a>
     </div>
-    <div class="flex flex-col border bg-teal-500 border-teal-600 text-center rounded-xl p-8">
+    <div class="flex flex-col border bg-gradient-to-br from-teal-600 to-teal-300 border-teal-600 text-center rounded-xl p-8">
       <h4 class="font-medium text-lg text-gray-800">Максимальный тариф</h4>
       <span class="mt-7 font-bold text-5xl text-gray-800">$99/месяц</span>
       <p class="mt-2 text-sm text-gray-500">Для экспертов</p>

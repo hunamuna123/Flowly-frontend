@@ -4,6 +4,7 @@
       <MainPageInfoblock/>
       <MainPageInfoblock2/>
       <MainPagePrices/>
+      <MainPageAnswers/>
    </div>
 
 </template>
