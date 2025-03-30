@@ -58,14 +58,14 @@
             <NuxtLink
               to="/"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
-              >О нас</NuxtLink
+              >Тарифы</NuxtLink
             >
           </div>
           <div>
             <NuxtLink
               to="/"
               class="inline-block text-white hover:text-gray-200 focus:outline-none focus:text-gray-300"
-              >Отзывы</NuxtLink
+              >О нас</NuxtLink
             >
           </div>
         </div>
