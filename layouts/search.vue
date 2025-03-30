@@ -126,6 +126,8 @@ export default {
       const id = this.extractId(this.inputLink);
       if (!id) return;
       
+
+      
       const apiUrl = useApiStore().url;
       try {
         // Если ваш API поддерживает GET-запрос с телом (необычный случай),
