@@ -108,8 +108,9 @@ export default {
         const response = await fetch(`${apiUrl}auth/register`, {
           method: 'POST',
           body: JSON.stringify({
-            username: this.login,
-            password: this.password
+            login: this.login,
+            password: this.password,
+            socialNetworkData: {}
           }),
           headers: {
             'Content-Type': 'application/json'
