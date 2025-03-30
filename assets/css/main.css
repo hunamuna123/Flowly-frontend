@@ -5,7 +5,10 @@
 	font-family: 'inter';
 	src: url('@/assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
 }
-
+@font-face {
+	font-family: 'fat';
+	src: url('@/assets/fonts/ofont.ru_Uncage.ttf') format('truetype');
+}
 body, html {
     width: 100%;
     height: 100%;
